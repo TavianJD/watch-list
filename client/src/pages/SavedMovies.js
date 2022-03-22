@@ -26,7 +26,7 @@ const SavedMovies = () => {
     }
     try {
       const response = await removeMovie({
-        variables: { movieId: movieId },
+        variables: { movieId: movieId.toString() },
       });
 
       if (!response) {
