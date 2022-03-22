@@ -1,0 +1,22 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #6A706E;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.mt-1 {
+  margin-top: 40px !important;
+}
